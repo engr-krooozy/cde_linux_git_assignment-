@@ -70,3 +70,8 @@ The ETL script is scheduled to run daily at 12:00 AM using a cron job.
      ORDER BY account_name ASC;
      ```
      This query provides a table showing the region for each sales representative, along with their associated accounts. The accounts are sorted alphabetically by name. 
+
+
+## Python ETL Pipeline
+
+This project also includes a Python script (`scripts/etl_pipeline.py`) that provides an alternative structure for the ETL process. This script contains placeholder functions for the extract, transform, and load stages (`extract_data`, `transform_data`, `load_data`). These functions need to be implemented with the specific logic required for the desired ETL operations.
